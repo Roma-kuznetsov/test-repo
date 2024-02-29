@@ -1,0 +1,36 @@
+.container {
+    display: block;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+
+.block {
+    height: 24px;
+    display: flex;
+    padding: 2px 0 2px 12px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.icon {
+    padding-left: 10px;
+    padding-right: 14px;
+    width: 9px;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.block {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.title {
+    display: block;
+    color: #333333;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.select__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    min-height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #C1C1C1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.select__block__icon {
+    display: block;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 8px;
+    transition: rotate 0.4s;
+    -webkit-transition: rotate 0.4s;
+    -moz-transition: rotate 0.4s;
+    -ms-transition: rotate 0.4s;
+    -o-transition: rotate 0.4s;
+}
+
+.rotate {
+    rotate: 180deg;
+}
+
+.select__block__language {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.select__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(51, 51, 51, 0.15);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.none {
+    display: none;
+}
+
+.select__menu__group {
+    position: relative;
+
+}
+
+.select__menu__group::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 13px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 14px;
+    height: 14px;
+    background: url('../icons/icon_serch.svg') no-repeat;
+    background-size: cover;
+}
+
+
+.select_menu_find {
+    box-sizing: border-box;
+    width: 368px;
+    height: 40px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    border: none;
+    padding-left: 36px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
